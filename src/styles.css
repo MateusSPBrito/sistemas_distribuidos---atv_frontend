@@ -137,18 +137,7 @@ table {
 	color: #333;
 }
 
-
-
 /* estilos gerais */
-
-:root {
-	--primary: #2083D4;
-	--secondary: #11316C;
-	--green: #04B672;
-	--red: #EB5959;
-}
-
-
 html,
 body {
 	height: 100%;
@@ -162,13 +151,12 @@ body {
 }
 
 .container {
-	background: linear-gradient(180deg, #E0EBEF 0%, #F1F1F1 100%), linear-gradient(135deg, #E0EBEF 0.28%, #FFF 100%, #F1F1F1 100%);
 	width: 100vw;
-    height: 100vh;
+	height: 100vh;
 	max-height: -webkit-fill-available;
 }
 
-button{
+button {
 	border: none;
 	cursor: pointer;
 }

@@ -1,1 +1,5 @@
-<p>new-post works!</p>
+<div class="container">
+    <input type="file" (change)="inputFileChange($event)">
+    <input type="text" [(ngModel)]="post.description" placeholder="Informe a descrição">
+    <button (click)="send()">Postar</button>
+</div>
